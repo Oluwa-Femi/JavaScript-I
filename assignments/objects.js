@@ -24,25 +24,28 @@ let Staff1 = {
   name: "Mitzi",
   gender: "F",
 };
+
 let Staff2 = {
   id: 2,
   email: "kdiben1@tinypic.com",
   name: "Kennan",
   gender: "M",
 };
+
 let Staff3 = {
   id: 3,
   email: "kmummery2@wikimedia.org",
   name: "Keven",
   gender: "M",
 };
+
 let Staff4 = {
   id: 4,
   email: "gmartinson3@illinois.edu",
   name: "Gannie",
   gender: "M",
 };
-// 5, adaine5@samsung.com, Antonietta, F
+
 let Staff5 = {
   id: 5,
   email: "adaine5@samsung.com",
@@ -51,19 +54,20 @@ let Staff5 = {
 };
 
 
+
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-
+console.log(Staff1.name)
 // Kennan's ID
-
+console.log(Staff2.id)
 // Keven's email
-
+console.log(Staff3.email)
 // Gannie's name
-
+console.log(Staff4.name)
 // Antonietta's Gender
-
+console.log(Staff5.gender)
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
